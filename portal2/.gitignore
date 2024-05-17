@@ -1,0 +1,41 @@
+# Back-end
+__pycache__/
+migrations/
+/backend/db.sqlite3
+/backend/media/*
+/backend/.idea
+/backend/*.env
+/backend/general.log
+/backend/error.log
+/backend_old
+.idea
+idea
+
+#virtual environment
+.venv
+venv
+
+# dependencies
+/frontend/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+/backend/.DS_Store
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/backend/credentials.json
+/backend/spreadsheets_api/excel.xlsx
